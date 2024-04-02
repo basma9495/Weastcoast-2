@@ -1,0 +1,100 @@
+{
+  "courses": [
+    {
+      "id": "366c",
+      "title": "HTML & CSS 1",
+      "number": "1",
+      "duration": 30,
+      "type": "distans",
+      "date": "2024-02-05",
+      "bookingOption": "distans"
+    },
+    {
+      "id": "1d3c",
+      "title": "HTML & CSS 2",
+      "number": "2",
+      "duration": 30,
+      "type": "distans",
+      "date": "2024-02-05",
+      "bookingOption": "distans"
+    },
+    {
+      "id": "fb56",
+      "title": "JavaScript",
+      "number": "3",
+      "duration": 60,
+      "type": "distans",
+      "date": "2024-02-12",
+      "bookingOption": "distans"
+    },
+    {
+      "id": "143e",
+      "title": "Programmering 1",
+      "number": "4",
+      "duration": 25,
+      "type": "klassrum",
+      "date": "2024-02-12",
+      "bookingOption": "distans"
+    },
+    {
+      "id": "a734",
+      "title": "Smarta kontrakt",
+      "number": "5",
+      "duration": 40,
+      "type": "distans",
+      "date": "2024-02-19",
+      "bookingOption": "klassrum"
+    },
+    {
+      "id": "f991",
+      "title": "Programmering i Python",
+      "number": "6",
+      "duration": 60,
+      "type": "distans",
+      "date": "2024-02-26",
+      "bookingOption": "distans"
+    },
+    {
+      "id": "a42d",
+      "title": "Cybersäkerhetsanalys 1",
+      "number": "7",
+      "duration": 30,
+      "type": "distans",
+      "date": "2024-02-26",
+      "bookingOption": "klassrum"
+    },
+    {
+      "id": "ee67",
+      "title": "Teknik och etik",
+      "number": "8",
+      "duration": 60,
+      "type": "klassrum",
+      "date": "2024-02-26",
+      "bookingOption": "klassrum"
+    }
+  ],
+  "userCourses": [
+    {
+      "id": "a32d",
+      "kursId": "366c",
+      "kursTitel": "",
+      "fornamn": "Basma",
+      "efternamn": "Almawi",
+      "userEmail": "basma_almawi@hotmail.com",
+      "mobilnummer": "0736868356",
+      "faktureringsadress": "123",
+      "selectedCourse": "HTML & CSS"
+    }
+  ],
+  "nykonto": [
+    {
+      "id": "234d",
+      "user": {
+        "firstName": "Basma",
+        "lastName": "Almawi",
+        "email": "basma_almawi@hotmail.com",
+        "password": "9999"
+      }
+    }
+  ]
+}

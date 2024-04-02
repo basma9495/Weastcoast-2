@@ -1,0 +1,73 @@
+<!-- navbar.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="vh-100 overflow-hidden">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container border-bottom">
+          <a class="navbar-brand fs-4" href="westcoast.html">Westcoast Education</a>
+          <button
+          class="navbar-toggler shadow-none border-0"
+          type="button" 
+          data-bs-toggle="offcanvas" 
+          data-bs-target="#offcanvasNavbar" 
+          aria-controls="offcanvasNavbar">
+
+
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="sidebar offcanvas offcanvas-start"
+           tabindex="-1" 
+           id="offcanvasNavbar" 
+           aria-labelledby="offcanvasNavbarLabel">
+           
+            <div class="offcanvas-header text-white border-bottom mx-2">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Westcoast Education</h5>
+              <button type="button" 
+              class="btn-close btn-close-white shadow-none"
+
+              data-bs-dismiss="offcanvas" aria-label="Close"
+              ></button>
+            </div>
+
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="westcoast.html">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item dropdown mx-2">
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Accounts
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" id="dropdown-item-1" href="loggain-kund.html">Login</a></li>
+                    <hr class="dropdown-divider">
+                    <li><a class="dropdown-item" id="dropdown-item-2" href="nykonto.html">Sign in</a></li>
+                    <hr class="dropdown-divider">
+                    <li><a class="dropdown-item" id="dropdown-item-3" href="loggain-admin.html">Administrator</a></li>
+                  </ul>
+                </li>
+              </ul>
+             
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,166 @@
+body {
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://wallup.net/wp-content/uploads/2015/12/3075-anime-texture-wood-monochrome-gray-simple_background.jpg");
+    background-size: cover;
+}
+
+.container,
+.admin {
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+   
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Admin-----------*/
+
+#adminloginForm, #loginForm, #registerForm, #nyCourseForm  {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: rgba(73, 79, 88, 0.25);
+    box-shadow: 0 4px 8px rgba(21, 240, 101, 0.15);
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+#adminloginForm input, #loginForm input, #registerForm input,
+#nyCourseForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: rgba(73, 79, 88, 0.25);
+    color: white;
+    box-shadow: 0 4px 8px rgba(21, 240, 101, 0.15);
+}
+
+.A-login-button, .login-button, .register-button, .ny-course-button {
+    background-color: rgba(73, 79, 88, 0.25);
+    box-shadow: 0 4px 8px rgba(21, 240, 101, 0.15);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: 40%;
+}
+
+
+#loginForm input[type="submit"]:hover {
+    background-color: #0e243b;
+}
+#registerForm input[type="submit"]:hover {
+    background-color: #153b0e;
+}
+#nyCourseForm input[type="submit"]:hover {
+    background-color: #153b0e;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 2rem;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin: 20px;
+   
+}
+
+#courses div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(21, 240, 101, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+#courses div:hover {
+    transform: scale(1.05);
+}
+
+#courses span {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+#courses span:first-child {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media (min-width: 600px) {
+    #courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    #courses {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    #courses {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    #courses {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    #offcanvasNavbar {
+        background-color: rgba(73, 79, 88, 0.15);
+        backdrop-filter: blur(10px);
+    }
+
+    .A-login-button,
+    .login-button,
+    .register-button,
+    .ny-course-button {
+        margin-left: 0; 
+    }
+}

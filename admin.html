@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="navbar.js"></script>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<style>
+    body{
+      
+        background-size: cover;
+    }
+</style>
+
+
+<body>
+    
+    
+    <header id="navbar"> 
+    </header>
+
+
+    <button id="kundlista" >Kund Lista</button>
+
+
+
+    <form id="nyCourseForm">
+        <h2>Lägg till ny kurs</h2>
+        <label for="courseTitle">Kurstitel:</label>
+        <input type="text" id="courseTitle" name="courseTitle" placeholder="Kurstitel" required>
+        <br>
+        <label for="courseNumber">Kursnummer:</label>
+        <input type="text" id="courseNumber" name="courseNumber" placeholder="Kursnummer" required>
+        <br>
+        <label for="courseDuration">Antal dagar:</label>
+        <input type="number" id="courseDuration" name="courseDuration" placeholder="Antal dagar" required>
+        <br>
+        <label for="courseType">Typ av kurs (klassrum/distans):</label>
+        <select id="courseType" name="courseType" required>
+            <option value="klassrum">Klassrum</option>
+            <br>
+            <option value="distans">Distans</option>
+        </select>
+        <br>
+        <br>
+        <label for="courseDate">Datum för kursen:</label>
+        <input type="date" id="courseDate" name="courseDate" required>
+        <br>
+        <label for="bookingOption">Boka kursen via (klassrum/distans):</label>
+        <select id="bookingOption" name="bookingOption" required>
+            <option value="klassrum">Klassrum</option>
+            <option value="distans">Distans</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Lägg till kurs">
+    </form>
+
+    <script src="admin.js"></script>
+    <script src="navbar.js"></script>
+</body>
+</html>
